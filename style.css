@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.pig {
+    position: relative;
+}
+
+.ear {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    background-color: pink;
+    border-color: black;
+    border-radius: 50%;
+    top: -20px;
+}
+
+.ear.left {
+    left: -1x;
+    ;
+}
+
+.ear.right {
+    right: -1px;
+    
+}
+
+.face {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+}
+
+.eye {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    top: 60px;
+}
+
+.eye::after {
+    content: '';
+    position: absolute;
+    
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    left: 8px;
+    top: 10px;
+}
+
+.eye.left {
+    left: 40px;
+}
+
+.eye.right {
+    right: 40px;
+}
+
+.nose {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background-color: #f32424;
+    border-radius: 40% 40% 40%  40%;
+    bottom: 50px;
+}
+
+.nostril {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(11, 11, 11);
+    border-radius: 50%;
+    top: 10px;
+}
+
+.nostril.left {
+    left: 35px;
+}
+
+.nostril.right {
+  right: 35px;
+  top:  0.px;
+}
